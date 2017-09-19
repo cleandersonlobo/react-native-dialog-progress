@@ -67,7 +67,7 @@ protected List<ReactPackage> getPackages() {
     DialogProgress.show(options)
 ```
 
-<img src="example.gif" style="width : 50%" />
+![](https://raw.githubusercontent.com/cleandersonlobo/react-native-dialog-progress/master/example.gif)
 
 ## Options 
  Name | Description | Default/Required | Type
