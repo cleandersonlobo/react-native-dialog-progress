@@ -1,7 +1,7 @@
 ## react-native-dialog-progress
 [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
 [![npm](https://img.shields.io/npm/dt/express.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://npmjs.org/package/react-native-material-dialog)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://npmjs.org/package/react-native-dialog-progress)
 [![npm](https://img.shields.io/npm/l/react-native-smart-badge.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress/blob/master/LICENSE)
 
 ## Installation 
@@ -24,7 +24,7 @@ $ react-native link react-native-dialog-progress
 ```gradle
 ...
 include ':react-native-dialog-progress'
-project(':react-native-dialog-progress').projectDir = new File(settingsDir, '../node_modules/@remobile/react-native-dialog-progress/android')
+project(':react-native-dialog-progress').projectDir = new File(settingsDir, '../node_modules/react-native-dialog-progress/android')
 ```
 * In `android/app/build.gradle`
 
@@ -77,8 +77,6 @@ message | text for the dialog message | undefined | string
 isCancelable | true if the dialog is cancelable, false otherwise | false | bool
 
 ## Hide DialogProgress
-
-### Example
 
 ### Example
 ```javascript 
