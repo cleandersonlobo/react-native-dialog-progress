@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/cleandersonlobo/React Apps/ConsultaCPF/node_modules/react-native-dialog-progress/android/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/cleandersonlobo/.android/build-cache/57cd2610e7a6cd2c1a0a2f8b238067b8fda87efe/output/res/color/abc_search_url_text.xml"
+    }
+]

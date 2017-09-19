@@ -1,0 +1,26 @@
+{
+  "name": "react-native-dialog-progress",
+  "version": "1.0.0",
+  "author": "Christoph Michel http://cleandersonlobo.com",
+  "private": false,
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleandersonlobo/react-native-dialog-progress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cleandersonlobo/react-native-dialog-progress/issues"
+  },
+  "homepage": "https://github.com/cleandersonlobo/react-native-dialog-progress",
+  "keywords": [
+    "react-native",
+    "android",
+    "library",
+    "dialog"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  }
+}
