@@ -1,8 +1,7 @@
 {
   "name": "react-native-dialog-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Cleanderson Lobo http://cleandersonlobo.com",
-  "private": false,
   "main": "index.js",
   "license": "MIT",
   "repository": {

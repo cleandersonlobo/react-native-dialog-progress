@@ -55,6 +55,7 @@ public class DialogProgressModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void hide(Promise promise){
+            if(this.progressDialog ==null){ return; }
           try {
               if(this.progressDialog.isShowing()){
                   this.progressDialog.dismiss();
