@@ -7,5 +7,7 @@
 
 @interface RNDialogProgress : NSObject <RCTBridgeModule>
 
+@property (retain) UIAlertController* visibleAlert;
+
 @end
   
