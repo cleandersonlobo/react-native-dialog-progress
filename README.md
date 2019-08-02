@@ -1,18 +1,16 @@
 ## react-native-dialog-progress
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://npmjs.org/package/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/l/react-native-smart-badge.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dm/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/dt/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/v/react-native-dialog-progress.svg)](https://npmjs.org/package/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/l/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress/blob/master/LICENSE)
 
 ## Installation 
 
-First you need to install react-native-dialog:
+First you need to install react-native-dialog-progress:
 
 ```javascript
 $ npm install react-native-dialog-progress --save
 ```
-
-### Installation (Android)
 
 ## React Native Link 
 
@@ -20,7 +18,7 @@ $ npm install react-native-dialog-progress --save
 $ react-native link react-native-dialog-progress
 ```
 
-## Manually
+## Manually (Android)
 ```gradle
 ...
 include ':react-native-dialog-progress'
