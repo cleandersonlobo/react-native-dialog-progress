@@ -12,13 +12,16 @@ First you need to install react-native-dialog-progress:
 $ npm install react-native-dialog-progress --save
 ```
 
-## React Native Link 
+### React Native Link 
 
 ```javascript
 $ react-native link react-native-dialog-progress
 ```
 
-## Manually (Android)
+### Manual installation
+
+#### Android
+
 ```gradle
 ...
 include ':react-native-dialog-progress'
@@ -48,8 +51,15 @@ protected List<ReactPackage> getPackages() {
    new DialogProgressPackage(),            // <------ add here
    ......
 }
-
 ```
+
+#### iOS
+
+1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
+2. Go to `node_modules` ➜ `react-native-dialog-progress` and add `RNDialogProgress.xcodeproj`
+3. In XCode, in the project navigator, select your project. Add `libRNDialogProgress.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+4. Run your project (`Cmd+R`)<
+
 ## Usage
 
 ## Show DialogProgress
