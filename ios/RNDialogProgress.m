@@ -29,11 +29,15 @@ RCT_REMAP_METHOD(show, show:(NSDictionary*)opts resolver:(RCTPromiseResolveBlock
             self.visibleAlert = nil;
         }]];
     }
+
+    // Find parent view controller
+    UIViewController* vc = [UIApplication sharedApplication].delegate.window.rootViewController;
+    while (vc.presentedViewController)
+        vc = vc.presentedViewController;
     
-    // Make it visibble
+    // Make it visible
     self.visibleAlert = alert;
-    UIViewController* rootVC = [UIApplication sharedApplication].delegate.window.rootViewController;
-    if (rootVC) [rootVC presentViewController:alert animated:animate completion:^{
+    if (vc) [vc presentViewController:alert animated:animate completion:^{
         
         // Done
         resolve(@"OK");
@@ -41,7 +45,7 @@ RCT_REMAP_METHOD(show, show:(NSDictionary*)opts resolver:(RCTPromiseResolveBlock
     }];
     
     // Fail if no root view controller
-    if (!rootVC)
+    if (!vc)
         reject(@"no_viewcontroller", @"No UIViewController found.", nil);
     
 }
@@ -55,6 +59,9 @@ RCT_REMAP_METHOD(hide, hideWithResolver:(RCTPromiseResolveBlock)resolve rejecter
         [self.visibleAlert dismissViewControllerAnimated:YES completion:^{
             resolve(@"HIDE");
         }];
+
+        // Remove it
+        self.visibleAlert = nil;
         
     } else {
         
