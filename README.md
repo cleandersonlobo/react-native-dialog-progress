@@ -1,26 +1,27 @@
 ## react-native-dialog-progress
-[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://npmjs.org/package/react-native-dialog-progress)
-[![npm](https://img.shields.io/npm/l/react-native-smart-badge.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dm/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/dt/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/v/react-native-dialog-progress.svg)](https://npmjs.org/package/react-native-dialog-progress)
+[![npm](https://img.shields.io/npm/l/react-native-dialog-progress.svg)](https://github.com/cleandersonlobo/react-native-dialog-progress/blob/master/LICENSE)
 
 ## Installation 
 
-First you need to install react-native-dialog:
+First you need to install react-native-dialog-progress:
 
 ```javascript
 $ npm install react-native-dialog-progress --save
 ```
 
-### Installation (Android)
-
-## React Native Link 
+### React Native Link 
 
 ```javascript
 $ react-native link react-native-dialog-progress
 ```
 
-## Manually
+### Manual installation
+
+#### Android
+
 ```gradle
 ...
 include ':react-native-dialog-progress'
@@ -50,8 +51,15 @@ protected List<ReactPackage> getPackages() {
    new DialogProgressPackage(),            // <------ add here
    ......
 }
-
 ```
+
+#### iOS
+
+1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
+2. Go to `node_modules` ➜ `react-native-dialog-progress` and add `RNDialogProgress.xcodeproj`
+3. In XCode, in the project navigator, select your project. Add `libRNDialogProgress.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+4. Run your project (`Cmd+R`)<
+
 ## Usage
 
 ## Show DialogProgress
